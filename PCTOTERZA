@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esperienza di PCTO presso Piramis SRL/Maverick</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #77b300 1px solid;
+        }
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .main-content > div {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        @media (max-width: 768px) {
+            header nav, header #branding, header nav ul {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            .main-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Piramis SRL/Maverick</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#azienda">Azienda</a></li>
+                    <li><a href="#ambiente">Ambiente</a></li>
+                    <li><a href="#attivita">Attività</a></li>
+                    <li><a href="#strumenti">Strumenti</a></li>
+                    <li><a href="#apprendimenti">Apprendimenti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="azienda" class="container">
+        <h2>Descrizione dell’azienda ospite</h2>
+        <p>Piramis SRL/Maverick è una ditta specializzata in telecomunicazioni facente parte di Piramis Group, un’organizzazione nata nel 2002 formata da 10 società, 30+ uffici in tutta Italia, 300 dipendenti e 400 agenti di vendita (sempre più in crescita). Quando si parla di Piramis si menziona indirettamente qualità e affidabilità: nel 2010 è stata premiata come “Excellent Vodafone Partner” e recentemente, nel 2019, ha ricevuto il premio di “Eccellenza dell’anno di innovazione e leadership consulenza” da Le Fonti Awards.</p>
+        <p>Un ulteriore aspetto importante dell’azienda è la sua forte attenzione al cliente e alla qualità del servizio offerto, infatti la priorità è soddisfazione del cliente, al quale vengono proposte anche soluzioni personalizzate per esigenze specifiche.</p>
+        <p>Un'ultima caratteristica che andrò a menzionare (delle numerose ancora presenti) è l’impegno esercitato per creare un percorso di formazione e crescita, non solo professionale, ma soprattutto personale.</p>
+    </section>
+
+    <section id="ambiente" class="container">
+        <h2>Descrizione del posto di lavoro</h2>
+        <p>L’ambiente nella quale vengono svolte le attività si rivela essere molto accogliente non appena si entra a contatto con i dipendenti, i quali, alle prime difficoltà riscontrate sono pronti ad aiutare, non solo sistemando l’errore, ma anche spiegando come non commettere nuovamente lo stesso errore.</p>
+        <p>Inoltre l’atmosfera generale non risulta essere pesante e sgradevole, tutt’altro: una pausa è sempre concessa se il lavoro risulta essere gravoso, magari un caffè o una chiacchierata, che aiutano a continuare l’attività senza svolgere errori.</p>
+    </section>
+
+    <section id="attivita" class="container">
+        <h2>Quali attività hai svolto</h2>
+        <div class="main-content">
+            <div>
+                <h3>Prima settimana</h3>
+                <p>La prima settimana di stage il lavoro assegnato era piuttosto ripetitivo, basato quasi totalmente sul report dei telefoni resi dalle aziende noleggianti in appositi file, inserendo numero di serie, danni evidenti e numero contratto in caso non fosse presente, inoltre, l’ultimo giorno della prima settimana sono stati introdotti da Alessandro Hu (responsabile della gestione dei dati aziendali) ulteriori aspetti di Excel.</p>
+            </div>
+            <div>
+                <h3>Seconda settimana</h3>
+                <p>Nella seconda settimana il lavoro svolto è risultato essere sempre meno ripetitivo, aggiungendo appunto, tra le mansioni da svolgere, logistica, monitoraggio e gestione portale di caricamento pratiche; il giovedì della stessa settimana ho avuto l’opportunità di conoscere Nicola Bonizzardi, IT dell’azienda, il quale ha spiegato l’utilità di conoscere a pieno Excel, rendendo disponibili anche un libro su Power Query e un laptop.</p>
+            </div>
+            <div>
+                <h3>Ultima settimana</h3>
+                <p>L’ultima settimana è stata caratterizzata da una autonomia quasi totale, riuscendo a svolgere tutti i compiti (tranne in alcuni casi specifici) in modo efficiente e corretto; Sono stati completati i capitoli più importanti del libro fornito da Nicola. Occasionalmente svolte richieste utilizzando conoscenze scolastiche (programmazione di base in C++).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="strumenti" class="container">
+        <h2>Strumenti, attrezzature e software utilizzati</h2>
+        <p>Computer, Software noleggio e logistica e libri.</p>
+    </section>
+
+    <section id="apprendimenti" class="container">
+        <h2>Che cosa ho imparato</h2>
+        <ul>
+            <li>Utilizzo approfondito Excel (Power Query, Pivoting etc...).</li>
+            <li>Collaborazione e comunicazione con i colleghi, fondamentale per lo svolgimento del lavoro.</li>
+            <li>Logistica aziendale.</li>
+            <li>Svolgimento pratiche di noleggio attraverso una finanziaria.</li>
+        </ul>
+        <h2>Difficoltà incontrate</h2>
+        <p>La fase iniziale dell’esperienza si è rivelata essere difficoltosa a causa della mancanza di conoscenza in materia aziendale. Queste difficoltà, di semplice natura, con il passare del tempo sono sempre diminuite fino a raggiungere una buona autonomia già dai primi giorni e quasi una totale indipendenza negli ultimi giorni, anche grazie al tutor aziendale che ha sempre dato disponibilità in caso di bisogno.</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 - Duceac Luciano Antoni - ITIS CEREBOTANI</p>
+    </footer>
+</body>
+</html>
